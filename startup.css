@@ -1,0 +1,123 @@
+html{
+	font-family: Quicksand;
+	font-weight: bold;	
+	font-style: oblique;
+
+}
+body{
+background-image: url(runbackground.jpg);
+background-size: cover;
+
+}
+
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(0,0,0,0.5); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */ 
+}
+
+.navbtn{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  border-bottom: 2px dotted white;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navbtn:hover {
+  color: #f1f1f1;
+  border-bottom: none;
+  cursor: pointer;
+}
+#runningman{
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+}
+#navlist{
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+/*cards*/
+
+#container{
+	
+	margin-left: 270px;
+	display: grid;
+	grid-template-columns: repeat(3 ,1fr);
+}
+#topic{
+	grid-column-end: 4;
+	grid-column-start: 1;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	cursor: default;
+}
+
+h4{
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+	text-transform: uppercase;
+}
+h2{
+	grid-column-end: 4;
+	grid-column-start: 1;
+	cursor: default;
+}
+
+.card {
+	border:3px solid black;
+	border-radius: 10px;
+	background-color: white;
+	width: 250px;
+	box-shadow: 4px 4px 16px 4px rgb(50,50,50);
+	height: 300px;
+	cursor: pointer;
+
+} 
+
+.imagecard{
+	
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 150px;
+	height: 60px;
+	border-radius: 10px;
+	border-color: black;
+	
+	
+}
+
+.cardborder{
+	height: 3px;
+	color: black;
+	background-color: black;
+	border-color: black;
+}
+.card:hover{
+	transform: scale(1.1);
+}
+.cardtext{
+	margin-left: 10px;
+	height: 100px;
+}
+#firstdumb{
+	margin-left: 70px;
+	margin-top: 20px;
+	height: 40px;
+	width:100px;
+}
+#free{
+	margin-top: 37px;
+	margin-right: 10px;
+}

@@ -1,0 +1,68 @@
+html{
+	font-family: Quicksand;
+	font-weight: bold;	
+	font-style: oblique;
+
+}
+body{
+background-image: url(runbackground.jpg);
+background-size: cover;
+
+}
+
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(0,0,0,0.5); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */ 
+}
+
+.navbtn{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  border-bottom: 2px dotted white;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navbtn:hover {
+  color: #f1f1f1;
+  border-bottom: none;
+  cursor: pointer;
+}
+#runningman{
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+}
+#navlist{
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+#container{
+	
+	margin-left: 270px;
+	display: grid;
+	grid-template-rows: repeat(auto ,1fr);
+}
+#About{
+	margin-top: 150px;
+	width: 80%;
+	margin-left: 80px;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}

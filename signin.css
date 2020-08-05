@@ -1,0 +1,89 @@
+html{
+	font-family: Quicksand;
+	font-weight: bold;	
+	font-style: oblique;
+
+}
+body{
+background-image: url(runbackground.jpg);
+background-size: cover;
+font-family: Quicksand;
+
+}
+
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(0,0,0,0.5); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */ 
+}
+
+.navbtn{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  border-bottom: 2px dotted white;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navbtn:hover {
+  color: #f1f1f1;
+  border-bottom: none;
+  cursor: pointer;
+}
+#runningman{
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+}
+#navlist{
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+/*cards*/
+
+#container{
+	margin-top: 190px;
+	margin-left: 47%;	
+	display: grid;
+	cursor: default;
+	
+}
+
+h1{
+	margin-left: 7%;
+}
+.inputfi{
+	width: 200px;
+	height: 25px;
+	margin-bottom: 20px;
+	background-color: black;
+	border:solid black 2px;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+	font-family: Quicksand;
+}
+#save{
+	background-color: rgba(200,200,200,0.8);
+	font-size: 20px;
+	font-family: Quicksand;
+	width: 100px;
+	color:white;
+	margin-left: 7.5%;
+	height: 50px;
+	border-radius: 20px;
+	border: none;
+}
+#save:hover{
+	transform: scale(1.2);
+	box-shadow: 4px 4px 10px 2px black;
+	cursor: pointer;
+}
